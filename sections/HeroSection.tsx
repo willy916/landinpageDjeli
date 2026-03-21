@@ -41,7 +41,7 @@ export default function HeroSection() {
                 viewport={{ once: true }}
                 transition={{ type: "spring", stiffness: 240, damping: 70, mass: 1 }}
             >
-                Pilotez vos boutiques depuis{" "}
+                Pilotez votre boutique depuis{" "}
                 <span className="move-gradient px-3 rounded-xl text-nowrap">votre mobile</span>
             </motion.h1>
 

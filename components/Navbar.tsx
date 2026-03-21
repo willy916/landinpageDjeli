@@ -31,7 +31,7 @@ export default function Navbar() {
                 transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1 }}
             >
                 <a href="/">
-                    <Image className="h-8.5 w-auto" src="/assets/logo.svg" alt="logo" width={130} height={34} priority />
+                    <Image className="h-6.5 w-auto" src="/assets/logo.png" alt="logo" width={100} height={20} priority />
                 </a>
 
                 <div className="hidden md:flex items-center gap-8 transition duration-500">
