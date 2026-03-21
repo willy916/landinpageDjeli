@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+/* ============================================================
+   e-Ukraine Font Family
+   Place les fichiers .otf dans /public/fonts/e-Ukraine-main/
+   ============================================================ */
+
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('/fonts/e-Ukraine-main/e-Ukraine-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('/fonts/e-Ukraine-main/e-Ukraine-UltraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('/fonts/e-Ukraine-main/e-Ukraine-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('/fonts/e-Ukraine-main/e-Ukraine-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('/fonts/e-Ukraine-main/e-Ukraine-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'e-Ukraine';
+  src: url('/fonts/e-Ukraine-main/e-Ukraine-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'e-UkraineHead';
+  src: url('/fonts/e-Ukraine-main/e-UkraineHead-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'e-UkraineHead';
+  src: url('/fonts/e-Ukraine-main/e-UkraineHead-UltraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'e-UkraineHead';
+  src: url('/fonts/e-Ukraine-main/e-UkraineHead-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'e-UkraineHead';
+  src: url('/fonts/e-Ukraine-main/e-UkraineHead-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'e-UkraineHead';
+  src: url('/fonts/e-Ukraine-main/e-UkraineHead-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'e-UkraineHead';
+  src: url('/fonts/e-Ukraine-main/e-UkraineHead-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+    --font-eukraine: 'e-Ukraine', 'Helvetica Neue', sans-serif;
+    --font-eukrainehead: 'e-UkraineHead', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    @apply bg-black text-white text-sm antialiased;
+    font-family: 'e-Ukraine', 'Helvetica Neue', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'e-UkraineHead', 'Helvetica Neue', sans-serif;
+}
+
+body::selection {
+    background-color: #7a18ea;
+    color: white;
+}
+
+button {
+    @apply cursor-pointer;
+}
+
+.move-gradient {
+    background: #7a18ea;
+    background-size: 200% 100%;
+    animation: movegradient 5s infinite;
+}
+
+@keyframes movegradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+html {
+    scroll-behavior: smooth;
+}
