@@ -29,7 +29,7 @@ export default function HeroSection() {
                     NOUVEAU
                 </span>
                 <p className="flex items-center gap-1">
-                    <span>Djeli IA — Chat, finances & analyses</span>
+                    <span>Djeli IA</span>
                     <ChevronRightIcon size={16} className="group-hover:translate-x-0.5 transition duration-300" />
                 </p>
             </motion.a>
@@ -52,7 +52,7 @@ export default function HeroSection() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.2, type: "spring", stiffness: 320, damping: 70, mass: 1 }}
             >
-                Djeli centralise ventes, stocks, employés et comptabilité en une seule app. Fini le vol, fini les pertes, fini les outils coûteux.
+                Djeli centralise ventes, stocks, employés et comptabilité en une seule app. fini les outils coûteux et les pertes.
             </motion.p>
 
             <motion.div

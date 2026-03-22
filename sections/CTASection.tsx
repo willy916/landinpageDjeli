@@ -13,13 +13,13 @@ export default function CTASection() {
         >
             <div>
                 <motion.h1
-                    className="text-4xl md:text-[46px] md:leading-15 font-semibold bg-linear-to-r from-white to-[#6666ff] text-transparent bg-clip-text"
+                    className="text-4xl mb-3 md:text-[46px] md:leading-15 font-semibold bg-linear-to-r from-white to-[#6666ff] text-transparent bg-clip-text"
                     initial={{ y: 80, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ type: "spring", stiffness: 280, damping: 70, mass: 1 }}
                 >
-                    Prêt à prendre le contrôle de votre activité ?
+                    Prêt à piloter votre boutique ?
                 </motion.h1>
                 <motion.p
                     className="bg-linear-to-r from-white to-[#6666ff] text-transparent bg-clip-text text-lg"
