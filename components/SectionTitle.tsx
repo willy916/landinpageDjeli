@@ -13,22 +13,26 @@ export default function SectionTitle({ text1, text2, text3 }: SectionTitleProps)
             >
                 {text1}
             </motion.p>
-            <motion.h3 className="text-3xl font-semibold text-center mx-auto mt-4"
-                initial={{ y: 120, opacity: 0 }}
-                whileInView={{ y: 0, opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ type: "spring", stiffness: 280, damping: 70, mass: 1 }}
-            >
-                {text2}
-            </motion.h3>
-            <motion.p className="text-slate-300 text-center mt-2 max-w-xl mx-auto"
-                initial={{ y: 120, opacity: 0 }}
-                whileInView={{ y: 0, opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ type: "spring", stiffness: 240, damping: 70, mass: 1 }}
-            >
-                {text3}
-            </motion.p>
+            {text2 && (
+                <motion.h3 className="text-3xl font-semibold text-center mx-auto mt-4"
+                    initial={{ y: 120, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ type: "spring", stiffness: 280, damping: 70, mass: 1 }}
+                >
+                    {text2}
+                </motion.h3>
+            )}
+            {text3 && (
+                <motion.p className="text-slate-300 text-center mt-2 max-w-xl mx-auto"
+                    initial={{ y: 120, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ type: "spring", stiffness: 240, damping: 70, mass: 1 }}
+                >
+                    {text3}
+                </motion.p>
+            )}
         </>
     );
 }
