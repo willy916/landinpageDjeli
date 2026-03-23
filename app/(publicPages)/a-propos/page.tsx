@@ -84,7 +84,7 @@ export default function AboutPage() {
                 <p className="text-slate-400 text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
 
 Djeli est né d’un constat simple : en Afrique, les outils de gestion sont souvent coûteux et peu adaptés.
-Notre mission est de rendre la gestion simple, accessible et efficace pour chaque commerçant.
+Notre mission est de rendre la gestion simple, accessible et efficace pour chaque commerçant
 
                 </p>
             </section>
