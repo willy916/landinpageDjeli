@@ -34,7 +34,6 @@ export const pricingData: IPricing[] = [
             "Fournisseurs illimités",
             "Utilisateurs illimités",
             "Historique des mouvements",
-            "Espace inventaire",
             "Rapports",
         ],
         mostPopular: true
@@ -55,7 +54,6 @@ export const pricingData: IPricing[] = [
             "Fournisseurs illimités",
             "Utilisateurs illimités",
             "Historique des mouvements",
-            "Espace inventaire",
             "Rapports",
             "Espace comptabilité",
             "États financiers",
