@@ -1,6 +1,7 @@
 {
-    "name": "pixels",
-    "short_name": "pixels",
+    "name": "Djeli — Gestion commerciale",
+    "short_name": "Djeli",
+    "description": "Application de gestion commerciale pour les commerçants d'Afrique de l'Ouest",
     "icons": [
         {
             "src": "/web-app-manifest-192x192.png",
@@ -15,7 +16,9 @@
             "purpose": "maskable"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+    "theme_color": "#000060",
+    "background_color": "#00001a",
+    "display": "standalone",
+    "start_url": "/",
+    "lang": "fr"
 }

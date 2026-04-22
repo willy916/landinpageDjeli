@@ -15,6 +15,7 @@ export const pricingData: IPricing[] = [
             "Clients illimités",
             "5 approvisionnements",
             "Fournisseurs illimités",
+            "Historique des mouvements",
         ],
         mostPopular: false
     },

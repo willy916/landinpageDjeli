@@ -1,6 +1,22 @@
-export const metadata = {
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
     title: "Conditions d'utilisation — Djeli",
-    description: "Conditions générales d'utilisation de l'application Djeli par Eso-dev.",
+    description:
+        "Conditions générales d'utilisation de l'application Djeli par Eso-dev. Abonnements, droits, obligations et informations légales.",
+    keywords: ["CGU Djeli", "conditions utilisation", "Eso-dev légal", "application gestion boutique conditions"],
+    alternates: {
+        canonical: "https://sites.djeli.pro/conditions",
+    },
+    openGraph: {
+        url: "https://sites.djeli.pro/conditions",
+        title: "Conditions d'utilisation — Djeli",
+        description: "Conditions générales d'utilisation de l'application Djeli par Eso-dev.",
+    },
+    robots: {
+        index: true,
+        follow: false,
+    },
 };
 
 const sections = [

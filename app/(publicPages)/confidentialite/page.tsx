@@ -1,6 +1,22 @@
-export const metadata = {
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
     title: "Politique de confidentialité — Djeli",
-    description: "Découvrez comment Djeli collecte, utilise et protège vos données personnelles.",
+    description:
+        "Découvrez comment Djeli collecte, utilise et protège vos données personnelles, conformément à la loi ivoirienne n° 2013-450.",
+    keywords: ["confidentialité Djeli", "RGPD Afrique", "protection données", "politique confidentialité", "Eso-dev données"],
+    alternates: {
+        canonical: "https://sites.djeli.pro/confidentialite",
+    },
+    openGraph: {
+        url: "https://sites.djeli.pro/confidentialite",
+        title: "Politique de confidentialité — Djeli",
+        description: "Comment Djeli collecte, utilise et protège vos données personnelles.",
+    },
+    robots: {
+        index: true,
+        follow: false,
+    },
 };
 
 const sections = [
