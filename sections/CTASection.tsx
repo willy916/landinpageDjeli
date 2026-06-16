@@ -48,7 +48,8 @@ export default function CTASection() {
                     App Store
                 </a>
                 <a
-                    href="#!"
+                    href="https://play.google.com/store/apps/details?id=com.djeli.app&pcampaignid=web_share"
+                    target="_blank"
                     className="flex items-center gap-3 bg-[#7a18ea]/80 hover:bg-[#7a18ea] transition border border-white/20 text-white font-semibold rounded-full px-6 py-3 text-sm whitespace-nowrap"
                 >
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">

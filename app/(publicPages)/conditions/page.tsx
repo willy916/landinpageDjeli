@@ -30,11 +30,11 @@ const sections = [
     },
     {
         title: "Création de compte et accès",
-        content: `<strong>Éligibilité :</strong> Djeli est réservé aux personnes physiques majeures (18 ans et plus) ou aux personnes morales régulièrement constituées.\n\n<strong>Création de compte :</strong> Vous devez fournir des informations exactes et complètes lors de la création de votre compte. Vous êtes responsable de la confidentialité de vos identifiants de connexion.\n\n<strong>Sécurité :</strong> Vous vous engagez à notifier immédiatement Eso-dev de toute utilisation non autorisée de votre compte à l'adresse contact@waretrack.online.\n\n<strong>Un compte par utilisateur :</strong> La création de comptes multiples pour contourner les restrictions de l'offre gratuite est interdite.`,
+        content: `<strong>Éligibilité :</strong> Djeli est réservé aux personnes physiques majeures (18 ans et plus) ou aux personnes morales régulièrement constituées.\n\n<strong>Création de compte :</strong> Vous devez fournir des informations exactes et complètes lors de la création de votre compte. Vous êtes responsable de la confidentialité de vos identifiants de connexion.\n\n<strong>Sécurité :</strong> Vous vous engagez à notifier immédiatement Eso-dev de toute utilisation non autorisée de votre compte à l'adresse contact@djeli.pro.\n\n<strong>Un compte par utilisateur :</strong> La création de comptes multiples pour contourner les restrictions de l'offre gratuite est interdite.`,
     },
     {
         title: "Abonnements et paiements",
-        content: `Djeli propose plusieurs formules d'abonnement :\n\n<strong>• Plan Free :</strong> Gratuit, avec des fonctionnalités limitées.\n<strong>• Plan Premium :</strong> 5 000 FCFA/mois ou 54 000 FCFA/an.\n<strong>• Plan Pro :</strong> 10 000 FCFA/mois ou 108 000 FCFA/an.\n\n<strong>Facturation :</strong> Les abonnements payants sont facturés en avance, mensuellement ou annuellement selon le choix effectué.\n\n<strong>Renouvellement :</strong> Les abonnements se renouvellent automatiquement à leur échéance. Vous pouvez annuler à tout moment depuis l'application.\n\n<strong>Remboursements :</strong> Sauf disposition légale contraire, les paiements effectués ne sont pas remboursables. En cas de problème, contactez-nous à contact@waretrack.online.`,
+        content: `Djeli propose plusieurs formules d'abonnement :\n\n<strong>• Plan Free :</strong> Gratuit, avec des fonctionnalités limitées.\n<strong>• Plan Premium :</strong> 5 000 FCFA/mois ou 54 000 FCFA/an.\n<strong>• Plan Pro :</strong> 10 000 FCFA/mois ou 108 000 FCFA/an.\n\n<strong>Facturation :</strong> Les abonnements payants sont facturés en avance, mensuellement ou annuellement selon le choix effectué.\n\n<strong>Renouvellement :</strong> Les abonnements se renouvellent automatiquement à leur échéance. Vous pouvez annuler à tout moment depuis l'application.\n\n<strong>Remboursements :</strong> Sauf disposition légale contraire, les paiements effectués ne sont pas remboursables. En cas de problème, contactez-nous à contact@djeli.pro.`,
     },
     {
         title: "Utilisation acceptable",
@@ -106,11 +106,11 @@ export default function ConditionsPage() {
                 <div className="mt-12 p-6 rounded-xl border border-[#7a18ea]/20 bg-[#7a18ea]/5 text-center">
                     <h3 className="text-lg font-medium mb-2">Des questions sur ces conditions ?</h3>
                     <p className="text-slate-400 text-sm mb-5">Notre équipe est disponible pour répondre à toutes vos questions.</p>
-                    <a href="mailto:contact@waretrack.online" className="inline-flex items-center gap-2 text-sm text-[#7a18ea] bg-[#7a18ea]/10 hover:bg-[#7a18ea]/20 px-5 py-2.5 rounded-full transition">
+                    <a href="mailto:contact@djeli.pro" className="inline-flex items-center gap-2 text-sm text-[#7a18ea] bg-[#7a18ea]/10 hover:bg-[#7a18ea]/20 px-5 py-2.5 rounded-full transition">
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                             <rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/>
                         </svg>
-                        contact@waretrack.online
+                        contact@djeli.pro
                     </a>
                 </div>
 

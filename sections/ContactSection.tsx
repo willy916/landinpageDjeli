@@ -21,7 +21,7 @@ export default function ContactSection() {
                     Nous sommes disponibles pour répondre à toutes vos demandes.
                 </p>
                 <a
-                    href="https://wa.me/2250575132586"
+                    href="https://wa.me/2250508294939"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white rounded-full px-7 h-11 transition text-sm font-medium"

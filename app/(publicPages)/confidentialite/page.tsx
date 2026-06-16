@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const sections = [
     {
         title: 'Qui sommes-nous ?',
-        content: `Djeli est une application de gestion commerciale multi-boutiques développée et exploitée par la société <strong>Eso-dev</strong>, dont le siège social est situé à <strong>Abidjan Cocody, Angré, Côte d'Ivoire</strong>.\n\nDjeli permet aux commerçants et entrepreneurs ivoiriens de gérer leurs stocks, ventes, approvisionnements, trésorerie et finances depuis leur téléphone mobile.\n\nPour toute question relative à la présente politique, vous pouvez nous contacter :\n<br/>• <strong>Email :</strong> contact@waretrack.online\n<br/>• <strong>Téléphone / WhatsApp :</strong> +225 05 75 13 25 86\n<br/>• <strong>Site web :</strong> sites.waretrack.online`,
+        content: `Djeli est une application de gestion commerciale multi-boutiques développée et exploitée par la société <strong>Eso-dev</strong>, dont le siège social est situé à <strong>Abidjan Cocody, Angré, Côte d'Ivoire</strong>.\n\nDjeli permet aux commerçants et entrepreneurs ivoiriens de gérer leurs stocks, ventes, approvisionnements, trésorerie et finances depuis leur téléphone mobile.\n\nPour toute question relative à la présente politique, vous pouvez nous contacter :\n<br/>• <strong>Email :</strong> contact@djeli.pro\n<br/>• <strong>Téléphone / WhatsApp :</strong> +225 05 75 13 25 86\n<br/>• <strong>Site web :</strong> sites.waretrack.online`,
     },
     {
         title: 'Données collectées',
@@ -46,7 +46,7 @@ const sections = [
     },
     {
         title: 'Vos droits',
-        content: `Conformément à la loi ivoirienne n° 2013-450 du 19 juin 2013, vous disposez des droits suivants :\n\n<strong>• Droit d'accès :</strong> Obtenir une copie de vos données.\n<strong>• Droit de rectification :</strong> Corriger des données inexactes.\n<strong>• Droit à l'effacement :</strong> Demander la suppression de vos données.\n<strong>• Droit d'opposition :</strong> Vous opposer au traitement pour motifs légitimes.\n<strong>• Droit à la portabilité :</strong> Recevoir vos données dans un format lisible.\n\n<strong>Pour exercer vos droits :</strong> Envoyez votre demande à <strong>contact@waretrack.online</strong>. Réponse sous 30 jours.`,
+        content: `Conformément à la loi ivoirienne n° 2013-450 du 19 juin 2013, vous disposez des droits suivants :\n\n<strong>• Droit d'accès :</strong> Obtenir une copie de vos données.\n<strong>• Droit de rectification :</strong> Corriger des données inexactes.\n<strong>• Droit à l'effacement :</strong> Demander la suppression de vos données.\n<strong>• Droit d'opposition :</strong> Vous opposer au traitement pour motifs légitimes.\n<strong>• Droit à la portabilité :</strong> Recevoir vos données dans un format lisible.\n\n<strong>Pour exercer vos droits :</strong> Envoyez votre demande à <strong>contact@djeli.pro</strong>. Réponse sous 30 jours.`,
     },
     {
         title: 'Modifications de la politique',
@@ -99,13 +99,13 @@ export default function ConfidentialitePage() {
                     <h3 className="text-lg font-medium mb-2">Une question sur vos données ?</h3>
                     <p className="text-slate-400 text-sm mb-5">Notre équipe répond à toutes vos demandes dans un délai de 30 jours.</p>
                     <div className="flex flex-wrap justify-center gap-3">
-                        <a href="mailto:contact@waretrack.online" className="inline-flex items-center gap-2 text-sm text-[#7a18ea] bg-[#7a18ea]/10 hover:bg-[#7a18ea]/20 px-4 py-2 rounded-full transition">
+                        <a href="mailto:contact@djeli.pro" className="inline-flex items-center gap-2 text-sm text-[#7a18ea] bg-[#7a18ea]/10 hover:bg-[#7a18ea]/20 px-4 py-2 rounded-full transition">
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                 <rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/>
                             </svg>
-                            contact@waretrack.online
+                            contact@djeli.pro
                         </a>
-                        <a href="tel:+2250575132586" className="inline-flex items-center gap-2 text-sm text-[#7a18ea] bg-[#7a18ea]/10 hover:bg-[#7a18ea]/20 px-4 py-2 rounded-full transition">
+                        <a href="tel:+2250508294939" className="inline-flex items-center gap-2 text-sm text-[#7a18ea] bg-[#7a18ea]/10 hover:bg-[#7a18ea]/20 px-4 py-2 rounded-full transition">
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8a16 16 0 0 0 6 6l.73-.73a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
                             </svg>

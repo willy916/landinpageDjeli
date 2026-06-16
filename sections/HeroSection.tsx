@@ -71,15 +71,19 @@ export default function HeroSection() {
                     </svg>
                     App Store
                 </button>
-                <button
-                    onClick={scrollToDownload}
-                    className="flex items-center gap-2 border border-[#000060] hover:bg-[#000040]/50 transition rounded-full px-6 h-11"
-                >
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M3.18 23.76c.3.17.65.19.96.04l12.35-6.94-2.56-2.58zM.59 1.18C.22 1.56 0 2.15 0 2.9v18.2c0 .75.22 1.34.6 1.71l.09.08 10.2-10.2v-.24zM20.46 10.4l-2.74-1.54-2.87 2.87 2.87 2.87 2.76-1.55c.79-.44.79-1.16-.02-1.65M4.14.22 16.49 7.16l-2.56 2.57z" />
-                    </svg>
-                    Play Store
-                </button>
+
+                    <a
+                        href="https://play.google.com/store/apps/details?id=com.djeli.app&pcampaignid=web_share"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 border border-[#000060] hover:bg-[#000040]/50 transition rounded-full px-6 h-11"
+                    >
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3.18 23.76c.3.17.65.19.96.04l12.35-6.94-2.56-2.58zM.59 1.18C.22 1.56 0 2.15 0 2.9v18.2c0 .75.22 1.34.6 1.71l.09.08 10.2-10.2v-.24zM20.46 10.4l-2.74-1.54-2.87 2.87 2.87 2.87 2.76-1.55c.79-.44.79-1.16-.02-1.65M4.14.22 16.49 7.16l-2.56 2.57z" />
+                        </svg>
+                        Play Store
+                    </a>
+
             </motion.div>
 
             <div className="flex flex-wrap justify-center items-center gap-4 md:gap-14 mt-12">

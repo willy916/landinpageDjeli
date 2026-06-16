@@ -41,7 +41,7 @@ export default function Footer() {
             >
                 <p className="max-w-60">Chaque entrepreneur mérite des outils puissants, quelle que soit la taille de sa boutique.</p>
                 <div className="flex items-center gap-4 mt-3">
-                    <a href="https://linkedin.com/in/waretrack-pro-17a502338" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/djeli-pro-17a502338/" target="_blank" rel="noreferrer">
                         <LinkedinIcon className="size-5 hover:text-[#3333cc] transition" />
                     </a>
                     <a href="https://web.facebook.com/people/Waretrack/61568278002116/?sk=reviews" target="_blank" rel="noreferrer">
