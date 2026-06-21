@@ -42,9 +42,9 @@ export default function PricingSection() {
                         </h1>
                         {plan.price > 0 && (
                             <p className="text-xs text-slate-500 mt-1">
-                                ou {formatFCFA(plan.price === 5000 ? 54000 : 108000)} FCFA/an
+                                ou {formatFCFA(plan.price === 2000 ? 21600 : 54000)} FCFA/an
                                 <span className="text-[#7a18ea] ml-1">
-                                    (-{plan.price === 5000 ? '10' : '10'}%)
+                                    (-{plan.price === 2000 ? '10' : '10'}%)
                                 </span>
                             </p>
                         )}
