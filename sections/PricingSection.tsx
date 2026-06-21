@@ -1,19 +1,38 @@
 'use client'
 import SectionTitle from "@/components/SectionTitle"
+import PaymentModal from "@/components/PaymentModal"
 import { pricingData } from "@/data/pricing";
 import { IPricing } from "@/types";
 import { CheckIcon } from "lucide-react";
 import { motion } from "motion/react";
-
-const scrollToDownload = () => {
-    document.getElementById("download")?.scrollIntoView({ behavior: "smooth" });
-};
+import { useState } from "react";
 
 const formatFCFA = (price: number) => {
     return price.toLocaleString('fr-FR');
 };
 
+/* Map plan name → packId per Djeli API (Free has no packId) */
+const PACK_IDS: Record<string, number> = {
+    Premium: 2,
+    Pro: 1,
+};
+
 export default function PricingSection() {
+    const [modalOpen, setModalOpen] = useState(false);
+    const [selectedPlan, setSelectedPlan] = useState<{ packId: number; packName: string; monthlyPrice: number } | null>(null);
+
+    const handleSelectPlan = (plan: IPricing) => {
+        if (plan.price === 0) {
+            // Free plan → redirect to app download
+            document.getElementById("download")?.scrollIntoView({ behavior: "smooth" });
+            return;
+        }
+        const packId = PACK_IDS[plan.name];
+        if (!packId) return;
+        setSelectedPlan({ packId, packName: plan.name, monthlyPrice: plan.price });
+        setModalOpen(true);
+    };
+
     return (
         <div id="pricing" className="px-4 md:px-16 lg:px-24 xl:px-32">
             <SectionTitle
@@ -57,15 +76,26 @@ export default function PricingSection() {
                             ))}
                         </ul>
                         <button
+                            id={`djeli-plan-${plan.name.toLowerCase()}`}
                             type="button"
-                            onClick={scrollToDownload}
+                            onClick={() => handleSelectPlan(plan)}
                             className={`w-full py-2.5 rounded-md font-medium mt-7 transition-all ${plan.mostPopular ? 'bg-white text-[#7a18ea] hover:bg-slate-200' : 'bg-[#7a18ea] hover:bg-[#0000a0] text-white'}`}
                         >
-                            Commencer
+                            {plan.price === 0 ? 'Commencer gratuitement' : 'S\'abonner'}
                         </button>
                     </motion.div>
                 ))}
             </div>
+
+            {selectedPlan && (
+                <PaymentModal
+                    isOpen={modalOpen}
+                    onClose={() => setModalOpen(false)}
+                    packId={selectedPlan.packId}
+                    packName={selectedPlan.packName}
+                    monthlyPrice={selectedPlan.monthlyPrice}
+                />
+            )}
         </div>
     );
 }
