@@ -21,7 +21,7 @@ export const pricingData: IPricing[] = [
     },
     {
         name: "Premium",
-        price: 5000,
+        price: 2000,
         period: "mois",
         features: [
             "3 boutiques",
@@ -41,7 +41,7 @@ export const pricingData: IPricing[] = [
     },
     {
         name: "Pro",
-        price: 10000,
+        price: 5000,
         period: "mois",
         features: [
             "10 boutiques",
