@@ -94,7 +94,7 @@ export default function Page() {
       <TestimonialSection />
       <PricingSection />
       <ContactSection />
-      <BlogPage />
+      {/* <BlogPage /> */}
       <CTASection />
     </>
   );

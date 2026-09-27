@@ -41,30 +41,6 @@ export default function HeroSection() {
           />
         </p>
       </motion.a>
-      {/* <motion.a
-        href="#ai-section"
-        className="group flex items-center gap-2 rounded-full p-1 pr-3 mt-44 text-[#ccccff] bg-[#7a18ea]/15"
-        initial={{ y: -20, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{
-          delay: 0.2,
-          type: "spring",
-          stiffness: 320,
-          damping: 70,
-          mass: 1,
-        }}>
-        <span className="bg-[#000060] text-white text-xs px-3.5 py-1 rounded-full">
-          NOUVEAU
-        </span>
-        <p className="flex items-center gap-1">
-          <span>FINANCEMENT & PRÊTS</span>
-          <ChevronRightIcon
-            size={16}
-            className="group-hover:translate-x-0.5 transition duration-300"
-          />
-        </p>
-      </motion.a> */}
 
       <motion.h1
         className="text-5xl/17 md:text-6xl/21 font-medium max-w-2xl text-center"
@@ -90,10 +66,12 @@ export default function HeroSection() {
           damping: 70,
           mass: 1,
         }}>
-        Djeli centralise ventes, stocks, employés et comptabilité en une seule
+        {/* Djeli centralise ventes, stocks, employés et comptabilité en une seule
         app. fini les outils coûteux et les pertes. Il transforme vos ventes
         quotidiennes en historique financier certifié pour débloquer vos
-        financements microfinanciers ou bancaires et développer votre commerce.
+        financements microfinanciers ou bancaires et développer votre commerce. */}
+        Djeli : gérez votre commerce, certifiez vos ventes, débloquez votre
+        financement.
       </motion.p>
 
       <motion.div

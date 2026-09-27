@@ -6,12 +6,10 @@ const BlogPage = () => {
   const featuredPost = posts.find((p) => p.featured);
   const regularPosts = posts.filter((p) => !p.featured);
   return (
-    <div
-      id="blog"
-      className="w-full min-h-screen bg-background text-foreground py-12 px-4 sm:px-6 lg:px-8">
+    <main className="w-full min-h-screen bg-background text-foreground py-12 px-4 sm:px-6 lg:px-8">
       {/* En-tête de la page */}
-      <div className="max-w-4xl mx-auto text-center space-y-4 mb-16">
-        <span className="text-xs font-semibold uppercase tracking-widest text-primary px-3 py-1 bg-primary/10 rounded-full">
+      <div className="max-w-4xl mx-auto text-center space-y-4 mb-16 my-12">
+        <span className="text-xs font-semibold uppercase tracking-widest text-primary px-3 py-1  bg-[#7a18ea]/15 text-[#ccccff] rounded-full">
           Actualités & Réalisations
         </span>
         <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight">
@@ -87,14 +85,14 @@ const BlogPage = () => {
                     <span>{post.date}</span>
                   </div>
                   <h3 className="font-bold text-lg leading-snug hover:text-primary transition-colors">
-                    <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+                    <Link href={`#`}>{post.title}</Link>
                   </h3>
                   <p className="text-sm text-muted-foreground line-clamp-3">
                     {post.excerpt}
                   </p>
                 </div>
                 <Link
-                  href={`/blog/${post.slug}`}
+                  href={`#`}
                   className="text-xs font-semibold text-primary hover:underline pt-2 inline-block">
                   En savoir plus →
                 </Link>
@@ -103,7 +101,7 @@ const BlogPage = () => {
           ))}
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
