@@ -52,6 +52,9 @@ export default function Footer() {
                     </a>
                 </div>
                 <p className="mt-3 text-center">&copy; {new Date().getFullYear()} Djeli — Tous droits réservés</p>
+                <Link href="/suppression-compte" className="underline underline-offset-2 hover:text-[#3333cc] transition">
+                    Demande de suppression de compte
+                </Link>
             </motion.div>
         </footer>
     );

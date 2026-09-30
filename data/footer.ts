@@ -21,6 +21,7 @@ export const footerData: IFooter[] = [
         links: [
             { name: "Confidentialité", href: "/confidentialite" },
             { name: "Conditions d'utilisation", href: "/conditions" },
+            { name: "Demander la suppression de compte", href: "/suppression-compte" },
         ]
     }
 ];

@@ -46,7 +46,7 @@ const sections = [
     },
     {
         title: 'Vos droits',
-        content: `Conformément à la loi ivoirienne n° 2013-450 du 19 juin 2013, vous disposez des droits suivants :\n\n<strong>• Droit d'accès :</strong> Obtenir une copie de vos données.\n<strong>• Droit de rectification :</strong> Corriger des données inexactes.\n<strong>• Droit à l'effacement :</strong> Demander la suppression de vos données.\n<strong>• Droit d'opposition :</strong> Vous opposer au traitement pour motifs légitimes.\n<strong>• Droit à la portabilité :</strong> Recevoir vos données dans un format lisible.\n\n<strong>Pour exercer vos droits :</strong> Envoyez votre demande à <strong>contact@djeli.pro</strong>. Réponse sous 30 jours.`,
+        content: `Conformément à la loi ivoirienne n° 2013-450 du 19 juin 2013, vous disposez des droits suivants :\n\n<strong>• Droit d'accès :</strong> Obtenir une copie de vos données.\n<strong>• Droit de rectification :</strong> Corriger des données inexactes.\n<strong>• Droit à l'effacement :</strong> Demander la suppression de vos données.\n<strong>• Droit d'opposition :</strong> Vous opposer au traitement pour motifs légitimes.\n<strong>• Droit à la portabilité :</strong> Recevoir vos données dans un format lisible.\n\n<strong>Pour exercer vos droits :</strong> Envoyez votre demande à <strong>contact@djeli.pro</strong>. Réponse sous 30 jours.\n\n<strong>Suppression de compte :</strong> consultez la page <a href="/suppression-compte" class="text-[#7a18ea] hover:underline">Suppression de compte</a> pour la démarche détaillée.`,
     },
     {
         title: 'Modifications de la politique',
